@@ -1,0 +1,48 @@
+Type=Exe
+Form=frmMain.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+UserControl=ctlTray.ctl
+UserControl=ctlBalloontip.ctl
+Class=clsSpeedFan; clsSpeedFan.cls
+Class=clsSETI; clsSETI.cls
+Module=apiMisc; apiMisc.bas
+Module=procMain; procMain.bas
+IconForm="frmMain"
+Startup="Sub Main"
+HelpFile=""
+Title="SETI@REST"
+ExeName32="SETI_REST.exe"
+Path32="C:\Program Files"
+Command32=""
+Name="SETIREST"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=0
+MinorVer=1
+RevisionVer=21
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="A SETI@HOME GPU Toggle App"
+VersionCompanyName="Microsoft"
+VersionLegalCopyright="hooku"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+
